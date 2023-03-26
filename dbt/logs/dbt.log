@@ -1,0 +1,45 @@
+
+
+============================== 2023-03-26 06:44:01.734506 | cd962bfe-dab4-4cc4-8260-1f4cb186a899 ==============================
+[0m06:44:01.734506 [info ] [MainThread]: Running with dbt=1.4.5
+[0m06:44:01.735452 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/felipedemenechvasconcelos/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m06:44:01.735555 [debug] [MainThread]: Tracking: tracking
+[0m06:44:01.754781 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10627f760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1062ed3c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1062eca90>]}
+[0m06:44:01.755399 [info ] [MainThread]: Creating dbt configuration folder at /Users/felipedemenechvasconcelos/.dbt
+[0m06:53:20.511151 [debug] [MainThread]: Starter project path: /Users/felipedemenechvasconcelos/repos/venvs/dbt-project/lib/python3.10/site-packages/dbt/include/starter_project
+[0m06:58:13.831987 [info ] [MainThread]: Profile sf_bikeshare written to /Users/felipedemenechvasconcelos/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m06:58:13.848029 [info ] [MainThread]: 
+Your new dbt project "sf_bikeshare" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m06:58:13.854261 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10627f760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10627fb20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1062edf00>]}
+[0m06:58:13.857299 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-03-26 07:02:08.387870 | d36500f3-1df4-4644-b011-c392c5481466 ==============================
+[0m07:02:08.387870 [info ] [MainThread]: Running with dbt=1.4.5
+[0m07:02:08.388847 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/felipedemenechvasconcelos/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m07:02:08.388940 [debug] [MainThread]: Tracking: tracking
+[0m07:02:08.404816 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104287c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042f5180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042f5570>]}
+[0m07:02:09.090314 [debug] [MainThread]: Executing "git --help"
+[0m07:02:09.114595 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m07:02:09.115127 [debug] [MainThread]: STDERR: "b''"
+[0m07:02:09.166049 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m07:02:09.166467 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m07:02:09.168641 [debug] [MainThread]: On debug: select 1 as id
+[0m07:02:11.002102 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=light-reality-344611&j=bq:US:4f1f3f15-faa0-46a8-aa94-429c4dd64cd4&page=queryresults
+[0m07:02:11.003858 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102def0a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x15b2f6c20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x15b2f5b40>]}
+[0m07:02:11.004554 [debug] [MainThread]: Flushing usage events
+[0m07:02:11.530388 [debug] [MainThread]: Connection 'debug' was properly closed.
