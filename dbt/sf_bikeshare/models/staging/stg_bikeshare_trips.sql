@@ -1,9 +1,3 @@
-{{
-  config(
-    materialized = 'view',
-    )
-}}
-
 WITH trips_data AS (
     SELECT
         *
