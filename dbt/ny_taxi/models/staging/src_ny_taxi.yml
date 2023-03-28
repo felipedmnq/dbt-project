@@ -1,0 +1,27 @@
+version: 2
+
+sources:
+  - name: ny_taxi_trips_22
+    description: NY taxi trips 2022
+    database: bigquery-public-data
+    schema: new_york_taxi_trips
+    tables:
+      - name: tlc_yellow_trips_2022
+        description: NY yellow taxi trips 2022
+        columns:
+          - name: pickup_location_id
+            description: TLC Taxi Zone in which the taximeter was engaged
+
+          - name: dropoff_location_id
+            description: TLC Taxi Zone in which the taximeter was disengaged
+
+      - name: taxi_zone_geom
+        columns:
+          - name: zone_id
+            description: Unique ID number of each taxi zone. Corresponds with the pickup_location_id and dropoff_location_id in each of the trips tables
+
+          - name: zone_name
+            description: Full text name of the taxi zone
+
+          - name: borough
+            description: Borough containing the taxi zone
